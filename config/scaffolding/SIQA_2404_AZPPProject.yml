@@ -44,53 +44,10 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 - name: WmJDBCAdapter
+  version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
-- serviceName: project.siqa_2404_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:DatabaseNew
-  packages:
-  - name: SIQA_2404_AZPPProject
-    version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
-  - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: DADA_GlobalVariable1
-    version: "1.0"
-  - name: JMSTest
-    version: "1.0"
-  - name: SIQAJDBCAdapterTests
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-  - name: WmSalesforceProvider
-    version: 10.7.0.0.53
-  - name: SIQACloudStreamsTests
-    version: "1.0"
-- serviceName: project.siqa_2404_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
-  packages:
-  - name: SIQA_2404_AZPPProject
-    version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
-  - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: DADA_GlobalVariable1
-    version: "1.0"
-  - name: JMSTest
-    version: "1.0"
-  - name: SIQAJDBCAdapterTests
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-  - name: WmSalesforceProvider
-    version: 10.7.0.0.53
-  - name: SIQACloudStreamsTests
-    version: "1.0"
 - serviceName: project.siqa_2404_azpp.integrations:JMSFlowTest
   packages:
   - name: SIQA_2404_AZPPProject
@@ -122,28 +79,6 @@ services:
   - name: WmPublic
     version: 11.1.0.0.2040
 - serviceName: project.siqa_2404_azpp.integrations:JMS_JNDI_SSL
-  packages:
-  - name: SIQA_2404_AZPPProject
-    version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
-  - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: DADA_GlobalVariable1
-    version: "1.0"
-  - name: JMSTest
-    version: "1.0"
-  - name: SIQAJDBCAdapterTests
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-  - name: WmSalesforceProvider
-    version: 10.7.0.0.53
-  - name: SIQACloudStreamsTests
-    version: "1.0"
-- serviceName: project.siqa_2404_azpp.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_2404_AZPPProject
     version: "1.0"
@@ -247,7 +182,7 @@ configurationVariables:
   ? artConnection.SIQA_2404_AZPPProject.project.siqa_2404_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNew.connectionSettings.datasourceClass
   : com.mysql.cj.jdbc.MysqlDataSource
   ? artConnection.SIQA_2404_AZPPProject.project.siqa_2404_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNew.connectionSettings.password
-  : "{AES}D6/2AGfsSWDOcWCLrORnEQ=="
+  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
   ? artConnection.SIQA_2404_AZPPProject.project.siqa_2404_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNew.connectionManagerSettings.expireTimeout
   : "1000"
   ? artConnection.SIQA_2404_AZPPProject.project.siqa_2404_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.DatabaseNew.connectionSettings.trustStore
